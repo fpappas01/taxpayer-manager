@@ -58,43 +58,6 @@ Implements the graphical interface using Java Swing:
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Java Development Kit (JDK) 8 or later
-- Any IDE (e.g., IntelliJ IDEA, Eclipse) or command-line terminal
-
-### Compilation Instructions
-
-1. Open a terminal and navigate to the source directory:
-   ```bash
-   cd source_code
-   ```
-
-2. Compile all Java files:
-   ```bash
-   javac */*.java
-   ```
-
-3. Run the application (assuming `GraphicalInterface.java` contains the main method):
-   ```bash
-   java gui.GraphicalInterface
-   ```
-
----
-
-## Example Usage
-
-1. The program starts with a graphical interface allowing you to load taxpayer files.
-2. Once loaded, you can:
-   - View taxpayer information
-   - Add and remove receipts
-   - Display summary charts
-
-Files must follow a predefined format expected by the `TXTFileReader`.
-
----
-
 ## Design Patterns Used
 
 - **Factory Pattern**: Used in `TaxpayerFactory` and `FileReaderFactory`
