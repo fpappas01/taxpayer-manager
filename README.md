@@ -4,7 +4,7 @@ This repository contains the full source code for a Java-based **Taxpayer Manage
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 source_code/
@@ -35,7 +35,7 @@ source_code/
 
 ---
 
-## 📦 Components
+## Components
 
 ### `datamanagement/`
 This package is responsible for the core logic of the application:
@@ -58,7 +58,7 @@ Implements the graphical interface using Java Swing or JavaFX:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or later
@@ -83,7 +83,7 @@ Implements the graphical interface using Java Swing or JavaFX:
 
 ---
 
-## 📄 Example Usage
+## Example Usage
 
 1. The program starts with a graphical interface allowing you to load taxpayer files.
 2. Once loaded, you can:
@@ -95,21 +95,8 @@ Files must follow a predefined format expected by the `TXTFileReader`.
 
 ---
 
-## 🛠️ Design Patterns Used
+## Design Patterns Used
 
 - **Factory Pattern**: Used in `TaxpayerFactory` and `FileReaderFactory`
 - **Exception Handling**: Custom exceptions enhance error detection and reporting
 - **Modular Design**: Separation of GUI, parsing logic, and data management
-
----
-
-## 📚 License
-
-This project is provided **as-is** for educational purposes. No license is included. If you wish to use or redistribute this code, please add an appropriate license.
-
----
-
-## 👨‍💻 Author
-
-Developed as a sample academic project for managing tax-related records and learning core Java OOP concepts.
-
