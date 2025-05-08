@@ -51,7 +51,7 @@ Provides utilities to read taxpayer data from text files:
 - Factory pattern (`FileReaderFactory`) enables extensibility for other formats
 
 ### `gui/`
-Implements the graphical interface using Java Swing or JavaFX:
+Implements the graphical interface using Java Swing:
 - `GraphicalInterface`: main application window
 - `ChartDisplay`: visual elements such as graphs or charts
 - `TaxpayerData`: handles displaying data in the GUI
